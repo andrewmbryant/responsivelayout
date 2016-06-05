@@ -84,15 +84,30 @@ header {
   margin-top: 2em;
 }
 
+
 .portfolio {
-  background-color: lightgreen;
+  max-width: 1200px;
+  text-align: center;
   padding: 2em 0;
+  background-color: lightblue;
+  margin: auto;
+}
+
+.portfoliowrapper {
+  width: 100%;
+  background-color: lightgreen;
 }
 
 .skills {
-  width: 100%;
+  max-width: 1200px;
   text-align: center;
   padding: 2em 0;
+  background-color: lightblue;
+  margin: auto;
+}
+
+.skillswrapper {
+  width: 100%;
   background-color: lightblue;
 }
 
