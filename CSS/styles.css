@@ -18,6 +18,13 @@ h1 {
 padding: 1em 0 0 0;
 }
 
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+
 p {
   font-weight: 300;
   line-height: 150%;
@@ -25,39 +32,28 @@ p {
   max-width: 300px;
 }
 
-.skills {
-  width: 100%;
-  text-align: center;
-  padding: 1em 0 3em 0;
-  background-color: lightblue;
-}
-
-.description {
-  margin-top: 2em;
-}
-
 ul {
   padding: 0;
   margin: 0;
 }
 
-h2 {
-  font-weight: bold;
-  text-transform: uppercase;
-}
 
 
 header {
-    background-color: lightgrey;
+    background-color: tomato;
 }
 
 .main-header,
 .nav {
   display: flex;
   flex-direction: column;
-
-
 }
+
+.main-header {
+  margin: 0;
+  padding: 0 0 3em 0;
+}
+
 .nav li {
   text-align: center;
   display: block;
@@ -67,16 +63,6 @@ header {
   margin: 1em auto 0 auto;
   width: 300px;
   padding: .5em;
-}
-
-.main-header {
-  margin: 0;
-  padding: 0 0 3em 0;
-}
-
-.banner {
-  background-color: lightgrey;
-  padding: 0 0 2em 0;
 }
 
 .banner a {
@@ -94,6 +80,27 @@ header {
   padding: 0;
 }
 
+.description {
+  margin-top: 2em;
+}
+
+.portfolio {
+  background-color: lightgreen;
+  padding: 2em 0;
+}
+
+.skills {
+  width: 100%;
+  text-align: center;
+  padding: 2em 0;
+  background-color: lightblue;
+}
+
+.banner {
+  background-color: tomato;
+  padding: 0 0 2em 0;
+}
+
 .portpicture {
   width: 300px;
   display: block;
@@ -107,12 +114,9 @@ header {
   background-color: lightgrey;
 }
 
-.sn {
+
+.contact a {
   font-weight: bold;
-  float: left;
-  display: inline-block;
-  padding: 2.5em;
-  margin: 0;
 }
 
 footer a {
@@ -124,20 +128,22 @@ footer a {
   margin: auto;
 }
 
+.studentname {
+  font-weight: bold;
+  float: left;
+  display: inline-block;
+  padding: 2.5em;
+  margin: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
   min-width: 300px;
 }
 
-.contact a {
-  font-weight: bold;
-}
 
 
-.portfolio {
-  margin-bottom: 2em;
-}
 
 
 @media (min-width: 769px){
@@ -166,7 +172,7 @@ body {
 }
 
 .banner2 {
-  background-color: lightgrey;
+  background-color: tomato;
 }
 
 .description {
@@ -203,9 +209,9 @@ body {
 .portfolio {
   width: 100%;
   text-align: center;
-  padding: 0 0 3em 0;
+  margin: auto;
+  background-color: lightgreen;
 }
-
 
 
 .primary {
