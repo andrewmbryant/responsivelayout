@@ -301,6 +301,7 @@ body {
   flex-direction: column;
 
 }
+}
 
 
 @media (min-width: 1005px){
@@ -332,11 +333,13 @@ body {
 
 .nav {
   align-self: center;
+  margin-top: 2em;
 }
 
 .nav li {
   margin-left: .65em;
   margin-right: .65em;
+
 }
 
 
@@ -363,5 +366,4 @@ line-height: 150%;
 margin: auto;
 max-width: 500px;
 }
-
 }
